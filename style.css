@@ -188,3 +188,11 @@ a {
     .no-display {
     display: none;
     }
+
+    #aboutSection li {
+        margin: 1rem auto;
+    }
+    
+    .aboutMe {
+        margin: 0 1em;
+    }
