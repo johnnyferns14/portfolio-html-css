@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --red: red;
+    --orange: rgb(239, 186, 42);
+    --dark-grey: #414a4c;
+    --white: white;
+    --green: green;
+    --black: black;
+}
+
+p {
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+section {
+    padding: 2em 1em;
+}
+
+.main-heading {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 1rem auto 4rem;
+    border-bottom: 2px solid var(--orange);
+    padding: 0.5em;
+    width: 200px;
+}
+
+.list-image {
+    list-style-image: url('/images/chevron-right.png');
+    margin: 2em;
+}
+
+.list-image li {
+    padding: 0.5em 0 0.5em 1em;
+}
+
+.inner-list li {
+    list-style-type: disc;
+}
+
+#aboutSection {
+    margin: 1em;
+}
+/* Navigation Bar */
+
+.flex-display {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    }
+    
+.switchContainer {
+    padding: 1px;
+    }
+    
+.switch {
+    width: 50px;
+    height: 20px;
+    background: var(--red);
+    margin: 0rem 0.5rem;
+    border-radius: 25px;
+    position: relative;
+    }
+    
+.controller {
+    width: 17px;
+    height: 17px;
+    background-color: var(--dark-grey);
+    border-radius: 50%;
+    position: absolute;
+    top: 1.6px;
+    left: 2px;
+    }
+
+.styletoggle {
+    background-color: var(--dark-grey);
+    color: white;
+    }
+    
+.switchtoggle {
+    background-color: var(--green);
+    }
+    
+.righttoggle {
+    background-color: var(--white);
+    left: 31px;
+    }
+
+.flex-display-column {
+    display: flex;
+    }
+    
+.nav-links {
+    list-style: none;
+    padding: 0rem 1rem;
+    position: relative;
+    }
+    
+.navstyle {
+    background-color: var(--orange);
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    }
+    
+.nav-links a {
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    }
+
+a {
+    color: var(--black);
+}
+
+.linkcolor {
+    color: var(--white);
+}
+
+.nav-links a:hover {
+    padding-bottom: 9px;
+    border-bottom: 3px solid var(--black);
+    border-width: 2px;
+
+    }
+
+.hero-image {
+    position: relative;
+    max-width: 1900px;
+    height: 400px;
+    overflow: hidden;
+    }
+
+.hero-image img {
+    position: absolute;
+    top: -20em;
+    width: 1704px;
+
+    }
