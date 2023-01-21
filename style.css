@@ -145,3 +145,46 @@ a {
     width: 1704px;
 
     }
+
+/* About Me Section */
+
+.flex-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .image-content {
+    position: absolute;
+    top: 2rem;
+    left: 30%;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 2px 2px 12px green;
+    
+    }
+    
+    .card-content {
+    padding: 3px;
+    }
+    
+    .aboutme-details {
+    width: 600px;
+    padding: 3px;
+    height: 300px;
+    border-radius: 15px;
+    transition: 0.6s ease-in;
+    
+    }
+    
+    .image-content img {
+    width: 100%
+    
+    }
+    
+    .no-display {
+    display: none;
+    }
