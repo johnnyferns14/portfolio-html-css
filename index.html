@@ -9,24 +9,48 @@
     <title>My Portfolio</title>
 </head>
 <body>
-    <nav class='navstyle'>
-        <ul class='flex-display'>
-            <div style="margin-right: auto;">
-                <li style="list-style:none;"><h1>JOHNNY</h1></p></li>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-dark navstyle">
+        <a class="navbar-brand" href="#">JOHNNY</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
             <div id='switchContainer' class='flex-display'>
                 <span class="light-wrap" id="light-wrapper"></span>
                 <p>Dark Mode</p>
                 <span class='switch' id='switchspan'>
                 <div class='controller lefttoggle' id='btnctrl'></div></span>
             </div>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">My Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About Me</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+
+
+    <!-- <nav class='navstyle'>
+        <ul class='flex-display'>
             <div class="flex-display-column">
                 <li class='nav-links'><a href=''>Home</a></li>
                 <li class='nav-links'><a href='#aboutSection'>About</a></li>
                 <li class='nav-links'><a href='#myPortfolio'>My portfolio</a></li>
             </div>
         </ul>
-    </nav>
+    </nav> -->
+
+
     <!-- Section Home -->
     <section id="home">
 
