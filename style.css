@@ -310,3 +310,53 @@ a {
 #contactSection{
     padding-top: 1em;
 }
+
+.flex-display-footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    background-color: var(--orange);
+    padding: 0.5em 1em;
+    bottom: 0;
+}
+
+.flex-display-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+
+footer p{
+    font-size: smaller;
+    
+}
+
+footer strong {
+    font-size: small;
+}
+
+footer li{
+    margin: 0 1em;
+    list-style: none;
+    
+}
+
+h3 {
+    font-size: small;
+    margin-bottom: 1em;
+}
+
+.adiv {
+    width: 30%;
+}
+
+.bdiv {
+    width: 70%;
+    text-align: center;
+}
+
+.flex-display-social li a {
+    text-decoration: none;
+}
