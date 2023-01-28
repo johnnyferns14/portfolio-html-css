@@ -360,3 +360,24 @@ h3 {
 .flex-display-social li a {
     text-decoration: none;
 }
+
+@media screen and (max-width: 600px) {
+    .flex-display-column {
+      flex-direction: column;
+      padding: 0;
+    }
+
+    .objWrapper:nth-child(even) {
+        flex-direction: column;
+
+    }
+
+    .objWrapper:nth-child(odd) {
+        flex-direction: column-reverse;
+
+    }
+
+    
+
+
+  }
