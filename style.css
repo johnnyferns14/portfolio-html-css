@@ -34,7 +34,7 @@ section {
 }
 
 .list-image {
-    list-style-image: url('/images/chevron-right.png');
+    list-style-image: url('./images/chevron-right.png');
     margin: 2em;
 }
 
