@@ -1,15 +1,18 @@
-let imageContainer = document.getElementById("image-content");
+let imageContainer = document.getElementById("card");
 let cardContent = document.getElementById("card-content");
+let profileImg = document.getElementById("profile-img");
 
 imageContainer.addEventListener("mouseenter", () => {
 cardContent.classList.remove("no-display");
 imageContainer.classList.add("aboutme-details");
+profileImg.classList.add("image-hover");
 
 });
 
 imageContainer.addEventListener("mouseleave", () => {
 cardContent.classList.add("no-display");
 imageContainer.classList.remove("aboutme-details");
+profileImg.classList.remove("image-hover");
 
 });
 
@@ -82,13 +85,13 @@ btnSubmit.addEventListener('click', function(e) {
 function contactFormToggle() {
   sidebar.addEventListener('click', function(event) {
    // if(contactForm != event.target) return;
-    if (contactSection.style.right === '-16.2em') {
+    if (contactSection.style.right === '-18.4em') {
       contactSection.style.right = "-0.2em";
       contactSection.style.transition = "right 0.7s ease-in";
     }
 
     else {
-      contactSection.style.right = "-16.2em";
+      contactSection.style.right = "-18.4em";
       contactSection.style.transition = "right 0.7s ease-in";
     }
 
