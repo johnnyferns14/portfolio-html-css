@@ -381,6 +381,10 @@ h3 {
         /* visibility: hidden; */
     }
 
+    .hero-image img {
+        left: -20em;
+    }
+
     /* .aboutme-details {
         width: auto;
         height: auto;
