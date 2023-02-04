@@ -16,7 +16,7 @@ profileImg.classList.remove("image-hover");
 
 });
 
-        // Navigation bar
+  // Navigation bar
 
 let spanSwitch = document.getElementById('switchspan');
 let controller = document.getElementById('btnctrl');

@@ -384,6 +384,23 @@ h3 {
       padding: 0;
     }
 
+    .aboutme-card {
+        position: inherit;
+        width: auto;
+        height: auto;
+        transition: none;
+        flex-direction: column;
+        display: block;
+        /* visibility: hidden; */
+    }
+
+    /* .aboutme-details {
+        width: auto;
+        height: auto;
+        padding: 3px;
+        flex-direction: column;
+        } */
+
     .objWrapper:nth-child(even) {
         flex-direction: column;
 
