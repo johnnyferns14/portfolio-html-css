@@ -175,7 +175,8 @@ a {
     }
     
 .aboutme-details {
-    width: 800px;
+    width: auto;
+    height: auto;
     left: 5%;
     padding: 3px;
     height: 300px;
