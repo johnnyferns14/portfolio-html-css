@@ -275,7 +275,7 @@ a {
     background-color: var(--orange);
     position: absolute;
     top: 30%;
-    right: 290px;
+    right: 22em;
     padding: 2px;
     border-radius: 5px;
     font-size: smaller;
